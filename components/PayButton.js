@@ -35,7 +35,7 @@ class PayButton extends React.Component {
         token={this.onToken}
         amount={this.props.amount}
         currency={config.stripe.currency}
-        stripeKey={config.stripe.apiKey} // Stripe publishable API key
+        stripeKey={config.stripe.pk_test_QUiEFibAIKom4xN84kLqbPJv} // Stripe publishable API key
         allowRememberMe={false}
       />
     );
